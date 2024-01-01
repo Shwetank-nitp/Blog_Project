@@ -3,7 +3,7 @@
   This project is a simple blogging website built using HTML and CSS. The main focus of this project was to create a responsive layout while implementing various CSS concepts such as grids, flexbox, and different positioning techniques like absolute and relative positioning.
 </p>
 
-##Technologies Used
+## Technologies Used
 <ul>
   <li>HTML</li>
   <li>CSS</li>
@@ -26,7 +26,7 @@
 
 ## Future updates
 <ul>
-  <il>Sign-up and Sign-in feature</il>
+  <li>Sign-up and Sign-in feature</il>
   <li>updtare in layout.</li>
   <li>Blog categorization and search feature.</li>
   <li>Members can write there own Bolgs in available category.</li>
