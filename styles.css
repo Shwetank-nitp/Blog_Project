@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*What is not the only the */
+a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+.heading_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.heading_title {
+  padding: 1rem;
+  text-align: center;
+}
+.paragraph_header {
+  max-width: 40em;
+  padding: 0 1rem 3.5rem 1rem;
+  text-align: center;
+  color: gray;
+}
+.main_wapper {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(222px, 315px));
+  justify-content: center;
+  width: 80vw;
+}
+.card_wrapper {
+  border: 1px solid rgb(204, 199, 199);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 22em;
+  justify-self: center;
+}
+.card_wrapper:hover .img_card_main {
+  transform: scale(1.2);
+  transition-duration: 670ms;
+}
+.image_container {
+  overflow: hidden;
+  position: relative;
+  height: 12rem;
+}
+.img_card_main {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.card_title_container {
+  padding: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 400px;
+}
+.card_title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.card_discription {
+  font-size: 1rem;
+  font-weight: 400;
+  color: gray;
+}
+.card_title:hover {
+  color: rgb(68, 68, 220);
+}
+.card_footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem 1rem 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: smaller;
+  color: gray;
+}
+.about_div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.author_logo {
+  height: 2.5em;
+  width: 2.5em;
+  margin: 0.5rem;
+  margin-left: 0;
+  border: 1px solid rgb(154, 151, 151);
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgba(233, 231, 231, 0.405);
+}
+.card_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card_tags {
+  border: 1px solid rgb(150, 143, 143);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.JoneDoe {
+  color: rgb(73, 73, 240);
+  font-weight: bold;
+}
