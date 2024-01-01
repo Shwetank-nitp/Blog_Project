@@ -24,5 +24,13 @@
 ## Usage
 <p>Feel free to use this project as a learning resource to understand and experiment with CSS and HTML concepts like grids, flexbox, and positioning.</p>
 
+## Future updates
+<ul>
+  <il>Sign-up and Sign-in feature</il>
+  <li>updtare in layout.</li>
+  <li>Blog categorization and search feature.</li>
+  <li>Members can write there own Bolgs in available category.</li>
+</ul>
+
 ## Contributors
 <span>This project is maintained by github.com/Shwetank-nitp. Contributions are welcome! Feel free to fork the project and submit pull requests.</span>
