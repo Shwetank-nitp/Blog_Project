@@ -18,7 +18,7 @@
 
 ## Getting Started
 <p>To get a copy of this project up and running on your local machine, simply clone the repository:</p>
-<code>git clone https://github.com/your-username/basic-blogging-project.git</code>
+<code>git clone https://github.com/Shwetank-nitp/Blog_Project.git</code>
 <span>Open the index.html file in your preferred web browser to view the project.</span>
 
 ## Usage
